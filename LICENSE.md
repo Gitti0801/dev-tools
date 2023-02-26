@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2023 Illu$ion a.k.a. Gitti0801
+Copyright (c) 2023 Gitti0801
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
