@@ -1,0 +1,63 @@
+Welcome to DevTools v1.0.0 by Illusion.
+First of all, thank you for downloading this project. Feel free to modify and adjust this program to your needs.
+
+Here is a list of short instructions and explanations to all of the tools included in this project:
+
+----------------------------------------------------------------------------------------------------------------------------
+
+String Increment:
+This tool lets you generate strings with a increasing or decreasing integer in it.
+
+____________________How To____________________
+Starting Value - Input the starting integer, for example: 1
+Ending Value - Input the ending integer, for example: 3
+Increment - The integer you input here will be the size of incrementation or decrementation steps, for example: 1
+Replacement - Input the character or character chain which should be replaced in the string, for example: [x]
+String: Input the string here. Don't forget to include the replacement character, for example: "I am [x] years old"
+
+When all the values are filled in, just press "Generate String" and the output will be generated, example output:
+______________________________________________
+
+I am 1 years old.
+I am 2 years old.
+I am 3 years old.
+
+NOTE: If you want a decrementation, just input negative integers.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+User Search:
+This tool was the most complicated for me to make. It lets you input a username (your username) and check on about 325 different
+websites if your username is registered there or not.
+
+____________________How To____________________
+Username - Just input your username here.
+
+That's it. Just press "Enter" and wait for the program to finish. The working URLs will be displayed in the large text field.
+Once the program has finished, the "Open URL" button will be available. You can go through every single URL by just clicking the button
+over and over again. If you would like to see some additional information, press the "Stats" button and a new form will be opened.
+______________________________________________
+
+On the very bottom of the form you can see how many websites have been successfully loaded, checked, how many working results have
+been found and the status of the process. You can abort the process at any time by clicking the "Cancel" button.
+
+NOTE: While I already improved the accuracy of the algorithm, false positives are possible and WILL happen on some websites all the time. I'm sorry for that and am trying to fix the issues.
+NOTE: You can easily add or remove websites to the list. For further information, check "social_media_list.txt".
+NOTE: I used the social media list from the tool "Sherlock" (https://github.com/sherlock-project/sherlock). For more information, check LICENSE.md.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Translator:
+The name might be a bit irritating, because this isn't an actual translator, it's more like a character replacer. With this tool you can
+translate plain text to some kind of code, for example morse code.
+
+____________________How To____________________
+Input - Input the plain text here.
+
+Then select the code you want to use from the drop down list. Press the "Translate" button and the output should be displayed in the
+"Output" text field.
+______________________________________________
+
+Currently, there is only morse code available, but you can add your own codes at any time. Just press the "Open Folder" button and follow
+the instructions in "instructions.info". When the code is added in the folder, press "Update" and the new code should appear in the drop
+down list.
